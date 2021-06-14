@@ -1,0 +1,9 @@
+.card{
+    margin-bottom: 1.5rem;
+    background-color: black;
+    color: white;
+}
+
+.projects .card-img-top{
+    padding: .75rem;
+}
