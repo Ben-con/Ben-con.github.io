@@ -7,3 +7,36 @@
 .projects .card-img-top{
     padding: .75rem;
 }
+
+.jumbo{
+    padding: 7rem;
+    margin-bottom: 3rem;
+}
+.but{
+    margin: 0 auto;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+}
+.contact-header{
+    margin: 0 auto;
+}
+.contact-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.svg-img{
+    margin-right: 1rem;
+}
+
+.contact-button{
+    margin:0 auto;
+}
+.btn-ben{
+    border: 2px solid darkblue;
+    color: white;
+    background-color: tomato;
+}
