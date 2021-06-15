@@ -1,3 +1,9 @@
+
+body{
+    background-color: #E8EFF7;
+}
+
+
 .card{
     margin-bottom: 1.5rem;
     background-color: black;
@@ -21,6 +27,7 @@
 }
 .contact-header{
     margin: 0 auto;
+    color: white;
 }
 .contact-list{
     display: flex;
@@ -30,13 +37,15 @@
 }
 .svg-img{
     margin-right: 1rem;
+    background-color: #E8EFF7;
+    padding: .1rem;
+    border-radius: 15%;
 }
 
 .contact-button{
     margin:0 auto;
 }
 .btn-ben{
-    border: 2px solid darkblue;
     color: white;
     background-color: tomato;
 }
@@ -44,9 +53,20 @@
 .about-hidden{
     display: none;
 }
+.about-me-img{
+    margin-bottom: 1rem;
+}
+
+.ben-img{
+    border: 10px solid black;
+}
 
 @media screen and (min-width: 768px) {
     .about-hidden{
         display: block;
     }
+    .about-me-img{
+        margin-bottom: 0rem;
+    }
+    
 }
