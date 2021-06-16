@@ -60,7 +60,7 @@ body{
 .ben-img{
     border: 10px solid black;
 }
-.hidden-port{
+.hidden-port,.hidden-web,.hidden-form,.hidden-gal,.hidden-dir,.hidden-game{
     display: none;
 }
 
