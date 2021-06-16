@@ -9,7 +9,9 @@ body{
     background-color: black;
     color: white;
 }
-
+.navbar{
+    border-bottom: 4px grey solid;
+}
 
 .projects .card-img-top{
     padding: .75rem;
