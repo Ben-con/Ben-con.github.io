@@ -95,3 +95,18 @@ gal.addEventListener("click",e =>{
     
 });
 
+document.querySelectorAll('.ben-img').forEach(item => {
+    item.addEventListener('mouseover', event => {
+      item.style.transition = "all 1s";
+      item.style.transform = "rotate(20deg) scale(1.15)";
+      
+      
+    });
+  });
+
+  document.querySelectorAll('.ben-img').forEach(item => {
+    item.addEventListener('mouseout', event => {
+      item.style.transform = "rotate(0deg)";
+      
+    });
+  });
